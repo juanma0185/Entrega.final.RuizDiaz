@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+
+</head>
+<body>
+    <!--navBar-->
+    <div class="nav-container">
+        <nav class="navbar">
+            <h1 class="navbar-logo">Tienda</h1>
+            <h1 class="ver-carrito" id="verCarrito">🛒<span id= "cantidadCarrito" 
+                class="cantidad-carrito"></span></h1>
+        </nav>
+    </div>
+    
+<!--banner-->
+<div class="banner">
+    <div class="banner-container">
+        <h1> ConstruIR</h1>
+        <p>Te ayuda a IR por tus sueños</p>
+        <img src="./assets/img/images.jpg" alt="">
+    </div>
+</div>
+
+<div id="shopContent" class="shop-content"></div>
+
+<div id="modal-container" class="modal-container"> </div>
+
+<!--clima-->
+<section class="weather-content">
+    <h1>Buscador del clima</h1>
+    <div class="result">
+        <p>Agrege cuidad y pais</p>
+        <!-- <h5>Clima en Bogota</h5>
+        <img src="" alt="">
+        <h2>28°C</h2>
+        <p>Max: 29°C</p>
+        <p>Min: 27°C</p> -->
+    </div>
+    <form action="" method="POST" class="get-weather">
+        <input type="text" name="city" id="city" placeholder="Escribe tu ciudad...">
+        <select name="" id="country">
+            <option disabled selected value="">Selecciona un pais</option>
+            <option value="AR">Argentina</option>
+            <option value="CO">Colombia</option>
+            <option value="CR">Costa Rica</option>
+            <option value="ES">España</option>
+            <option value="US">Estados Unidos</option>
+            <option value="MX">México</option>
+            <option value="PE">Perú</option>
+        </select>
+        <input type="submit" name="" id="" value="Get Weather">
+    </form>
+</section>
+
+<script src="./app.js"></script>
+<script src="./js/carrito.js"></script>
+
+
+</body>
+</html>
+
+
+    
+    
